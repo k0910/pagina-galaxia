@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #ec0e0e;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  section#peliculas ul li {
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width:600px)
+{
+  html {
+        font: normal 16px Simonson;
+        color:rgb(17, 0, 255);
+        background-color: rgb(13, 182, 233);
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: #e7d8d8;
+        font-size: 18px;
+        
+    }
+    h2{
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+}
